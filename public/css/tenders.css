@@ -1,0 +1,38 @@
+.tender-announcement-heading {
+    margin: auto;
+    text-align: center;
+}
+
+#accordion1 {
+    margin: auto;
+    text-align: center;
+}
+
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: inherit;
+    box-sizing: content-box;
+}
+
+link {
+    text-decoration: none;
+}
+
+link:hover {
+    text-decoration: none;
+}
+
+.col-md-12 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.ongoing {
+    white-space: nowrap;      /*keep text on one line */
+    overflow: hidden;         /*prevent text from being shown outside the border */
+    text-overflow: ellipsis;
+    width: 500px;
+    display: inline-block;
+}
