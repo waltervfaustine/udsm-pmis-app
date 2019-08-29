@@ -1,0 +1,95 @@
+/* 
+|************************************************
+|          START: ADMIN AUTH STYLES
+|------------------------------------------------
+|Styling the authentication for the Adminstrator
+|________________________________________________
+*/
+
+#admin_login_news_alert {
+    background-color: #00cc00;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#chpassop_login_news_alert {
+    background-color: #00cc00;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#fogpass_login_news_alert {
+    background-color: #00cc00;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
+
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+img {
+    height: 6rem;
+}
+
+body {
+    display: flex;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+html, body {
+    height: 100%;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+form {
+    width: 20rem;
+}
+
+.brand-img {
+    width: 12rem;
+    height: 2.5rem;
+}
+
+.btn-primary {
+    background-color: #0090CF !important;
+}
+
+/* 
+|************************************************
+|          END: ADMIN AUTH STYLES
+|------------------------------------------------
+|Styling the authentication for the Adminstrator
+|________________________________________________
+*/

@@ -1,0 +1,347 @@
+* {
+    font-family: 'Titillium Web', sans-serif;
+    box-sizing: border-box;
+}
+
+.login-register {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#termsandconditions {
+    height: 77vh;
+    overflow: auto;
+}
+
+/* .slider_messages {
+    background-color: #ccc;
+    border: 1px solid #000;
+} */
+
+/* 
+|************************************************
+|          START: BOOTSTRAP OVERRIDES
+|------------------------------------------------
+|     Overriding bootstrap classes in public
+|________________________________________________
+*/
+
+.text-muted{
+    margin-bottom: 0rem !important;
+}
+
+.bg-primary {
+    background-color: #0090CF !important;
+    padding: 8px !important;
+    color: #fff;
+}
+
+.btn-primary {
+    color: #fff !important;
+}
+
+.btn-primary:hover {
+    color: #fff !important;
+}
+
+/* 
+|************************************************
+|          START: BOOTSTRAP OVERRIDES
+|------------------------------------------------
+|     Overriding bootstrap classes in public
+|________________________________________________
+*/
+
+/* 
+|************************************************
+|          START: PASSWORD METER
+|------------------------------------------------
+|     Meter to show the strength of the password
+|________________________________________________
+*/
+
+#password_message {
+    display: none;
+    margin: 5px;
+}
+
+
+/* 
+|************************************************
+|          ENDS: PASSWORD METER
+|------------------------------------------------
+|     Meter to show the strength of the password
+|________________________________________________
+*/
+
+
+/* 
+|************************************************
+|          END: ACCOUNT VERIFIED
+|------------------------------------------------
+|     User Account Email Is Not Verified
+|________________________________________________
+*/
+
+.verified {
+    border: 1px solid #ccc;
+    margin: 10px 0px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.message-verified {
+    border: #00cc00;
+    background-color: limegreen;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.welcome-verified {
+    font-family: 120px !important;
+}
+
+/* 
+|************************************************
+|          START: ACCOUNT UNVERIFIED
+|------------------------------------------------
+|     User Account Email Is Not Verified
+|________________________________________________
+*/
+
+.unverified {
+    border: 1px solid #ccc;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+
+
+.stakeholder-unverified {
+    border: 1px solid red;
+    background-color: tomato;
+    padding: 5px;
+    font-size: 20px;
+    color: #fff;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.centering-div {
+    margin: 30px 20px;
+}
+
+.form-signin-heading {
+    padding-bottom: 30px;
+}
+
+.login-centering-div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #eee;
+}
+
+.stakeholder-fullname {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.stakeholder-email {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+/* 
+|************************************************
+|          END: ACCOUNT UNVERIFIED
+|------------------------------------------------
+|     User Account Email Is Not Verified
+|________________________________________________
+*/
+
+#fogpassword-form-div {
+    margin: 20px 20px;
+}
+
+#login-form-div {
+    margin: 10px 10px;
+}
+
+.message {
+    background-color: #00cc00;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    margin: 5px;
+    /* padding: 5px; */
+    border-radius: 5px;
+}
+
+#login-form-div .message {
+    background-color: #00cc00;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    margin: 5px;
+    /* padding: 5px; */
+    border-radius: 5px;
+}
+
+#public-reg {
+    margin: 10px 10px;
+}
+
+#public-reg .message {
+    background-color: #00cc00;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    margin: 5px;
+    /* padding: 5px; */
+    border-radius: 5px;
+}
+
+#cainam-home {
+    background-image: url("../assets/pageglare.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+a {
+    color: #0090CF !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: rgba(106, 145, 255, 0.6) !important;
+    text-decoration: none !important;
+}
+
+.footer-glare-background a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.footer-glare-background a:hover {
+    color: rgba(255,255,255,.6) !important;
+    text-decoration: none !important;
+}
+
+.footer-glare-background {
+    color: #fff;
+}
+
+
+
+#tbcreg_form {
+    padding: 10px;
+    background-color: #eee;
+}
+
+#register-title {
+    padding: 15px;
+    color: #0090CF;
+}
+
+.btn-primary {
+    background-color: #0090CF !important;
+    border-color: #0090CF !important;
+}
+
+.btn-primary:hover {
+    background-color: rgb(207, 66, 0) !important;
+    border-color: rgb(207, 31, 0) !important;
+}
+
+#login-email{
+    margin-bottom: 10px;
+}
+
+#login-password{
+    margin-bottom: 10px;
+}
+
+#create-account {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0090CF;
+}
+
+.header-section {
+    background-color: #0090CF;
+}
+
+.logo {
+    height: 120px;
+    margin: 10px;
+}
+
+.slider {
+    margin-top: 10px;
+}
+
+.site-name {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#udsmpmis-logo {
+    background-image: url("../assets/pageglare.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+#udsmpmis-brand {
+    background-image: url("../assets/udsmheader.png");
+    background-repeat: no-repeat;
+}
+
+.footer-glare-background {
+    background-image: url("../assets/pageglare.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    /* background-color: #2196f3; */
+    background-color: #0090CF !important;
+}
+
+.footer-copyright {
+    background-color: rgba(0,0,0,.2);
+    color: rgba(255,255,255,.6);
+}
+
+#footer-right {
+    background-image: url("../assets/udsmheader.png");
+    background-repeat: no-repeat;
+}
+
+.news {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin: 10px 0px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 2px rgba(0,0,0,0.05)
+}
+
+.tender-info {
+    margin: 10px 0px;
+}
+
+/* background-image: url("bgdesert.jpg"); */
+
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
